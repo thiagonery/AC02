@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fenice Arte e Jóias</string>
+    <string name="mensagem_inicial"> Bem-vindo(a) a loja Fenice Arte e Jóias!</string>
+    <string name="mensagem_login">Realizar o login</string>
+</resources>
