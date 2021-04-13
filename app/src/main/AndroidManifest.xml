@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FeniceArteEJoias">
-        <activity android:name=".DebugActivity"></activity>
-        <activity android:name=".TelaInicialActivity" />
+        <activity android:name=".ConfigActivity"></activity>
+        <activity android:name=".DebugActivity" />
+        <activity android:name=".TelaInicialActivity" android:theme="@style/Theme.Toolbar"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

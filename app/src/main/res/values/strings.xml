@@ -2,4 +2,7 @@
     <string name="app_name">Fenice Arte e Jóias</string>
     <string name="mensagem_inicial"> Bem-vindo(a) a loja Fenice Arte e Jóias!</string>
     <string name="mensagem_login">Realizar o login</string>
+    <string name="action_buscar">Buscar produtos</string>
+    <string name="action_atualizar">Atualizar</string>
+    <string name="action_config">Configurações</string>
 </resources>

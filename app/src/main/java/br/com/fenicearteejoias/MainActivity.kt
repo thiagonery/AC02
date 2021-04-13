@@ -25,10 +25,10 @@ class MainActivity : DebugActivity  () {
             intent.putExtras(params)
 
             if (textoUsuario.equals("aluno") && textoSenha.equals("impacta")) {
-                Toast.makeText(this, "Funcionou", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Dados validados com sucesso!", Toast.LENGTH_LONG).show()
                 startActivity(intent)
             } else {
-                Toast.makeText(this, "Usuário ou senha incorretos, tente novamente.", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Usuário ou senha inválidos, tente novamente.", Toast.LENGTH_LONG).show()
             }
         }
     }
