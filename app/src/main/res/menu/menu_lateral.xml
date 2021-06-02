@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_produtos"
+            android:icon="@drawable/ic_disciplina_black"
+            android:title="Produtos"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_faleconosco"
+            android:icon="@drawable/ic_forum_black"
+            android:title="Fale Conosco" />
+        <item
+            android:id="@+id/nav_encomendar"
+            android:icon="@drawable/ic_chat_black"
+            android:title="Chat Online" />
+    </group>
+</menu>
